@@ -1,3 +1,3 @@
 FROM tomcat:8
-COPY target/webapp.war /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/newapp/webapp/target/webapp.war /usr/local/tomcat/webapps/
 
